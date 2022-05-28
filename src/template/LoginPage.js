@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
   const navigate = useNavigate();
@@ -24,47 +24,6 @@ function LoginPage() {
           </div>
 
           <div className="col-12 col-lg-6 tw-mt-10 tw-pt-lg-23 tw-pe-lg-10 pe-xl-0">
-            <form className="border border-1 shadow p-3 rounded-lg bg-white mx-auto max-w-99">
-              <div className="mb-3">
-                <input
-                  type="text"
-                  className="form-control rounded-md h-13"
-                  placeholder="Email address or phone number"
-                />
-              </div>
-              <div className="mb-3">
-                <input
-                  type="password"
-                  className="form-control rounded-md h-13"
-                  placeholder="Password"
-                />
-              </div>
-              <div className="mb-2 d-grid">
-                <button
-                  type="button"
-                  className="btn btn-primary rounded-md h-12 fw-bold text-4.5"
-                  onClick={() => navigate('/')}
-                >
-                  Log In
-                </button>
-              </div>
-              <div className="text-center">
-                <a href="/" className="text-decoration-none">
-                  <small>Forgotten password?</small>
-                </a>
-              </div>
-              <hr className="hr-sm" />
-              <div className="text-center tw-py-2.5">
-                <button
-                  className="btn btn-green rounded-md h-12 fw-bold"
-                  data-bs-toggle="modal"
-                  data-bs-target="#modal-register"
-                  type="button"
-                >
-                  Create New Account
-                </button>
-              </div>
-            </form>
             <div className="mt-4 text-center">
               <small>
                 <b>Create a Page</b> for a celebrity, brand or business.
